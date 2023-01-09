@@ -1,1 +1,6 @@
-
+.card-examples {
+    display: flex;
+}
+.bgc-blue {
+    background-color: lightblue;
+}
