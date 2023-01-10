@@ -1,5 +1,5 @@
-# websiteTemplates.Bootstrap
-<table>
+<h1 align="center">Bootstrap 5</h1>
+<table align="center">
   <tr>
     <td align="center" height="108" width="108">
         <img
@@ -10,7 +10,7 @@
         <br /><strong>Bootstrap</strong>
      </td>
     <td>
-        <br /><strong> A simple project to establish basic knowledge & understanding of Bootstrap v5.3 functionality.</strong>
+        <br /><strong> A simple project to showcase basic knowledge & understanding of Bootstrap v5.3 functionality.</strong>
     </td>
   </tr>
 </table>
