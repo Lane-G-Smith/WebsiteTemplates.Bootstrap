@@ -1,100 +1,305 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">This-Navbar-Is</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+</head>
+<body>
+
+<!-- navbar area  -->
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
+    <div class="container">
+        <a href="" class="navbar-brand">Lane G Photography</a>
+        <button 
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="nav-menu">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">All</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">One</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Piece
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Of</a>
-              </li>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#locations" class="nav-link">You</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Should</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Hire</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">So</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">I</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Can</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Do</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">This</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">For</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">You</a>
+                </li>            
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Code</button>
-            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- hero section -->
+
+<section class="bg-dark text-light p-3 p-lg-3 text-center text-sm-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+                <h1>Photographer & Web Developer
+                <span class="span text-warning"></span>
+                </h1>
+                <p class="lead">This website was built with Bootstrap 5. One of the awesome things about Bootstrap is it's large modular components, which can really speed up the time needed for production. Bootstrap also makes working with teams a breeze, since a vast majority of css class structure is predefined. This also makes for much smaller css files which makes life easier for future developers.</p>
+            </div>
+                <img src="" alt="" class="">
+            <div class="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Giant Button -->
+
+<div class="d-grid gap-2 p-3">
+    <button class="btn btn-primary" type="button">This button does nothing</button>
+  </div>
+
+<!-- row 1 of 4 cards -->
+
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-camera-fill"></i> 
+                        </div>
+                        <h3 class="card-title mb-3">These</h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod facilis sit autem tempora iure.
+                        </p>
+                        <a href="#" class="btn btn-primary">explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-controller"></i>  
+                        </div>
+                        <h3 class="card-title mb-3">Are</h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod facilis sit autem tempora iure.
+                        </p>
+                        <a href="" class="btn btn-primary">explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-emoji-smile"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Different</h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod facilis sit autem tempora iure.
+                        </p>
+                        <a href="" class="btn btn-primary">explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-laptop"></i>  
+                        </div>
+                        <h3 class="card-title mb-3">Service</h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod facilis sit autem tempora iure.
+                        </p>
+                        <a href="" class="btn btn-primary">explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</section>
+
+<!-- row 2 of 4 cards -->
+
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                        <i class="bi bi-alarm"></i>  
+                        </div>
+                        <h3 class="card-title mb-3">Offerings</h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod facilis sit autem tempora iure.
+                        </p>
+                        <a href="" class="btn btn-primary">explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                        <i class="bi bi-phone-vibrate"></i>  
+                        </div>
+                        <h3 class="card-title mb-3">Or</h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod facilis sit autem tempora iure.
+                        </p>
+                        <a href="" class="btn btn-primary">explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                  <div class="card-body text-center">
+                      <div class="h1 mb-3">
+                        <i class="bi bi-watch"></i>  
+                      </div>
+                      <h3 class="card-title mb-3">Product</h3>
+                      <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod facilis sit autem tempora iure.
+                      </p>
+                      <a href="" class="btn btn-primary">explore</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-arrows-move"></i>  
+                        </div>
+                        <h3 class="card-title mb-3">Tiers</h3>
+                        <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod facilis sit autem tempora iure.
+                        </p>
+                        <a href="" class="btn btn-primary">explore</a>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>  
+</section>
+
+<!-- section 1 -->
+
+<section id="" class="p-5 bg-dark text-light">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor nobis velit iure inventore explicabo tempora nostrum vero autem voluptas.</p>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet necessitatibus aliquam consequuntur quam nemo excepturi tenetur suscipit pariatur eaque. Enim!</p>
+                <a href="" class="btn btn-light mt-3"><i class="bi bi-chevron-left"></i>
+                    do stuff
+                </a>
+            </div>
+            <div class="col-md">
+                <img src="" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section 2 -->
+
+<section id="" class="p-5 ">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+                <img src="https://freesvg.org/img/CatPhotographer.png" alt="" class="img-fluid">
+            </div>
+              <div class="col-md p-3">
+                  <h2>Look a cat</h2>
+                  <p class="lead">I found a graphic of a cat holding a camera.</p>
+                  <a href="" class="btn btn-primary mt-3">
+                  <i class="bi bi-chevron-right"></i>
+                  Contact Me
+                </a>
+              </div>
+        </div>
+    </div>
+</section>
+
+<!-- accordion -->
+
+<section id="" class="p-5">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Why?
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    Because of reasons, that's why.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                How?
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    This in an answer to your inquiry relating to how.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                When?
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">There is no time like the present.</div>
           </div>
         </div>
-    </nav>
-    <div class="card-examples">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Bootstrap Uses Components</h5>
-          <p class="card-text">This makes coding websites quicker than manually designing every aspect of every component</p>
-          <a href="#" class="btn btn-primary">Supposedly</a>
-        </div>
       </div>
-      <div class="card">
-        <h5 class="card-header">Components come in all shapes and sizes</h5>
-        <div class="card-body">
-          <h5 class="card-title">Some Love It & Some Hate It</h5>
-          <p class="card-text">Personally, I am A Fan</p>
-          <a href="#" class="btn btn-primary">Bootstrap</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <div class="card-body bgc-blue">
-          <h5 class="card-title">This component is a "card"</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Just copy the code for the card you want, paste it, & make small changes such as background-color:lightblue</p>
-          <a href="#" class="card-link">Blue Area</a>
-          <a href="#" class="card-link">Is Card</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Components Can Create Issues</h5>
-          <p class="card-text">When too many websites rely on template components, those websites have a tendency to al look very similar</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">This Can Be Good</li>
-          <li class="list-group-item">This Can Be Bad</li>
-          <li class="list-group-item">It Depends on what you are trying to achieve</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Boring Link</a>
-          <a href="#" class="card-link">Awesome Link</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">However, components are just a small part of the functionality that bootstrap can provide. Themes, actions, colors and much more can be automated or created uniquely simply by linking to the bootstrap files and exploring the online documentation.</p>
-        </div>
-      </div>
-    </div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+</section>
+
+<!-- scripts -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 </html>
