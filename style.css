@@ -1,6 +1,5 @@
-.card-examples {
-    display: flex;
-}
-.bgc-blue {
-    background-color: lightblue;
+body::before {
+    display:block;
+    content: "";
+    height:60px;
 }
