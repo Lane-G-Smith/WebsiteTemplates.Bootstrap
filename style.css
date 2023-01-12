@@ -3,3 +3,7 @@ body::before {
     content: "";
     height:60px;
 }
+
+.navheight {
+    height:60px;
+}
