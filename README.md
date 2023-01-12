@@ -10,7 +10,7 @@
         <br /><strong>Bootstrap</strong>
      </td>
     <td>
-        <p align="center">A simple project to showcase basic knowledge & understanding of Bootstrap 5 functionality.</p>
+        <p align="center">A simple project to showcase basic knowledge & understanding of Bootstrap 5.</p>
     </td>
   </tr>
 </table>
